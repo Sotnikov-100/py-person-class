@@ -14,7 +14,7 @@ def create_person_list(people: list) -> list:
         age = person_dict["age"]
         Person(name, age)
 
-    # Потім встановлюємо зв'язки між особами (wife/husband)
+    # Потім встановлюємо звязки між особами (wife/husband)
     for person_dict in people:
         name = person_dict["name"]
         person_instance = Person.people[name]
